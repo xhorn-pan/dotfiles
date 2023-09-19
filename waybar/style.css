@@ -1,0 +1,42 @@
+* {
+	border: none;
+	border-radius: 2;
+	font-family: "Fira Code";
+	font-size: 13px;
+	min-height: 0;
+}
+
+window#waybar {
+	background: transparent;
+	color: white;
+}
+
+#window {
+	font-weight: bold;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    border-top: 2px solid transparent;
+}
+
+#workspaces button.active {
+    color: #c9545d;
+    border-top: 2px solid #c9545d;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#bluetooth, #clock, #wireplumber, #battery, #cpu, #memory, #network, #tray, #mode {
+	padding: 0 3px;
+	margin: 0 2px;
+}
+
+#clock {
+	font-weight: bold;
+}
